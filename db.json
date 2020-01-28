@@ -1,0 +1,46 @@
+{
+  "customers": [
+    {
+      "id": "3243242",
+      "dni": "3243242",
+      "name": "JUAN PEREZ",
+      "age": 20
+    },
+    {
+      "id": "30000001",
+      "dni": "30000001",
+      "name": "Otro",
+      "age": 34
+    },
+    {
+      "id": "LE6mIJt",
+      "dni": "152808",
+      "name": "ROBERTO",
+      "age": 25,
+      "user": {
+        "permissions": [
+          "CUSTOMER_LIST",
+          "CUSTOMER_VIEW",
+          "CUSTOMER_EDIT"
+        ]
+      }
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
